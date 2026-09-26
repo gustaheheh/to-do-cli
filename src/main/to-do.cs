@@ -52,7 +52,9 @@ class Program
                     rodando = false;
                     break;
 
-                    // default:
+                    default:
+                    Console.WriteLine("Por favor, selecione uma opção válida para a escolha.\n");
+                    break;
                     
                 }
             }
