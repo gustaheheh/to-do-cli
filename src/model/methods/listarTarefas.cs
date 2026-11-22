@@ -7,12 +7,15 @@ public partial class Tarefas
     public void listarTarefas()
     {
         
+        // Verificar se há tarefas cadastradas
         if(tarefasToDoNome.Count <= 0)
         {
             
             Console.WriteLine("ERRO: Você não tem nenhuma tarefa cadastrada.\n");
             
         } 
+        
+        // Listagem das tarefas pendentes, contendo o nome e status de cada uma
         else{
 
         Console.WriteLine("Você tem as seguintes tarefas pendentes:");

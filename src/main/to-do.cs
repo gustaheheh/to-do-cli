@@ -6,6 +6,7 @@ class Program
     static void Main()
     {
         
+        // Início
         Console.Clear();
         
         Console.WriteLine("Bem-vindo à lista de tarefas! \nQual é o seu nome de usuário? (Deixe em branco para continuar como visitante)");
@@ -25,6 +26,7 @@ class Program
         while (rodando)
         {
 
+            // Menu de escolhas do programa
             Console.WriteLine($"Olá, {nome}! O que deseja fazer?");
 
             Console.WriteLine("1. Adicionar Tarefa \n2. Listar Tarefas \n3. Concluir tarefa \n4. Sair");
@@ -57,6 +59,13 @@ class Program
                     break;
                     
                 }
+            }
+            // Caso o TryParse não dê certo
+            else
+            {
+                
+                Console.WriteLine("ERRO: Por favor, selecione uma opção com valor inteiro válida.");
+
             }
         }
     }

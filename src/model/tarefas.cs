@@ -1,5 +1,6 @@
 namespace classTarefas;
 
+// Classe das tarefas e seus atributos
 public partial class Tarefas
 {
     
